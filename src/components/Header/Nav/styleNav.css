@@ -1,0 +1,18 @@
+.styleNavBack{
+    background-color: #D0D5F2;
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+
+.navLink{
+    color: #2F3659 !important;
+}
+
+.navLink:focus{
+    color:#6D81F2!important;
+}
+.navLink:hover{
+    color:#6D81F2!important;
+}
