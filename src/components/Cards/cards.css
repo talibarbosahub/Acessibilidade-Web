@@ -1,0 +1,50 @@
+.card-text {
+    white-space: pre-line;  /*quebra de linha do Json*/
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    max-width: 30rem;
+    font-size: 15px;
+    margin-right: 5px;
+    
+}
+
+.card-title, h5{
+padding-bottom: 10px;
+color: #6D81F2;
+text-align: center;
+}
+
+/* BlockQuote */
+.p-3{
+border:none;
+}
+
+.quote__container{
+    display: flex;
+    justify-content: center;
+}
+.quote__style {
+    height: 10%;
+    padding-left: 20px;
+    border-left: 7px solid;
+    border-color: rgb(226, 226, 230);
+}
+ 
+@media(max-width: 320px)
+{
+    .card-title, h5, .card-text{
+        font-size: 10px;
+        text-align: -webkit-center;
+    }
+
+    .card-body{
+        padding:0.30rem
+        
+    }
+}

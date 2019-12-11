@@ -1,0 +1,16 @@
+[
+    {
+        "_id": 1,
+        "title": "O que é?",
+        "content":" Segundo a wikipidia a expressão acessibilidade Web refere-se a prática inclusiva de fazer websites que possam ser utilizados por todas as pessoas que tenham deficiência ou não. Quando os sites são corretamente concebidos, desenvolvidos e editados, todos os usuários podem ter igual acesso à informação e funcionalidade.\n A Acessibilidade consiste na facilidade de acesso e de uso de ambientes, produtos e serviços por qualquer pessoa e em diferentes contextos.",
+        "imagem": "",
+        "link": ""
+    },
+    {
+        "_id": 2,
+        "title": "Qual a importância?",
+        "content": "Quando uma página não está acessível, ela está fechando as portas para milhões de pessoas, não pensar em acessibilidade pode ser sinônimo de deixar dinheiro em cima da mesa, a acessibilidade também pode melhorar o rankeamento da sua página no Google, uma vez que o algoritmo do buscador reconhece essas práticas e o enxerga com maior relevância.\n Desde 2016 a Lei Brasileira de inclusão (LBI) exige que todos os sites, públicos e privados, estejam acessíveis. Infelizmente apenas 1% deles seguem essa regra no Brasil, ter um site acessível não é só cumprir a lei, é ter um diferencial competitivo.",
+        "imagem": "",
+        "link": ""
+    }
+]

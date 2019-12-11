@@ -1,7 +1,19 @@
 .title{
-    font-size: 30px;
+    font-size: 1.8rem;
     color: #6D81F2;
     text-align: center;
-    margin: 40px;
+    margin-top:60px;
   }
+
+ .sub__title{
+     font-size: 1rem;
+     text-align: center;
+     margin: 3% 15%;
+     color: #8091F2
+ }
+
+ .img-fluid{
+     height: 50vh;
+ }
+
 
