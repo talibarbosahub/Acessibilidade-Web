@@ -1,8 +1,8 @@
 import React from 'react';
-import {StyleCard} from './Cards'
+import {StyleCard} from '../Cards/Cards'
 import Texto from '../../utils/content.json'
 import Container from 'react-bootstrap/Container';
-import './cards.css'
+import '../Cards/cards.css'
 
 const FirstSection =()=>(
     <Container>

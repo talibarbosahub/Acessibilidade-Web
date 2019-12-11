@@ -1,19 +1,22 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button'
 import './cards.css'
 
 
 export const StyleCard = (props) => (
   <Card>
+    <Card.Img variant="top" src={props.image} />
     <Card.Body>
-      <Card.Title >{props.title}
+      <Card.Title tabindex="">{props.title}
       </Card.Title>
       {/* <Card.Subtitle className="mb-2 text-muted">{props.subtitle}</Card.Subtitle> */}
-      <Card.Text>
+      <Card.Text tabindex="">
         {props.text}
       </Card.Text>
-      <Card.Link href="#">{props.reference}</Card.Link>
+      {/* <Button variant="primary">Go somewhere</Button> */}
+      <Card.Link tabindex="" href="#">{props.reference}</Card.Link>
     </Card.Body>
   </Card>
 )
