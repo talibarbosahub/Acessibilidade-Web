@@ -7,16 +7,17 @@ import './cards.css'
 
 export const StyleCard = (props) => (
   <Card>
-    <Card.Img variant="top" src={props.image} />
-    <Card.Body>
-      <Card.Title tabindex="">{props.title}
+      <Card.Body>
+    <span className="img__style"><Card.Img  src={props.image} alt ={props.alt}/></span>
+      <Card.Title >{props.title}
       </Card.Title>
       {/* <Card.Subtitle className="mb-2 text-muted">{props.subtitle}</Card.Subtitle> */}
-      <Card.Text tabindex="">
+      <Card.Text >
         {props.text}
       </Card.Text>
       {/* <Button variant="primary">Go somewhere</Button> */}
-      <Card.Link tabindex="" href="#">{props.reference}</Card.Link>
+      <a href={props.reference}>{props.fonte}</a>
+      {/* <Card.Link href="#">{props.reference}</Card.Link> */}
     </Card.Body>
   </Card>
 )

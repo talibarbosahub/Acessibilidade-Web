@@ -2,9 +2,10 @@
     white-space: pre-line;  /*quebra de linha do Json*/
 }
 
-.container{
+.display-flex{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
 
 .card{
@@ -18,6 +19,20 @@
 padding-bottom: 10px;
 color: #6D81F2;
 text-align: center;
+}
+
+.img__style{
+    max-height: 285px;
+    display: flex;
+    padding: 15px;
+}
+bottom, .card-img-top{
+    height: inherit;
+    justify-content: center;
+    
+}
+img{
+object-fit: contain;
 }
 
 /* BlockQuote */
