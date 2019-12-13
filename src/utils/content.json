@@ -25,63 +25,72 @@
             "image": "https://miro.medium.com/max/1269/1*3zZomw8ROlQNk2QheEybaw.gif",
             "alt": "Desenho do rosto de uma mulher com expressoes que alternam entre alegria e tristeza de acordo com o grafico de cores",
             "reference": "https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859",
-            "fonte":"Fonte: Diretrizes para melhorar sua Acessibilidade na web por Eduardo Abelo"
+            "fonte":"Fonte:  Eduardo Rabelo - Diretrizes para melhorar sua Acessibilidade na web"
         },
         {
             "_id": 4,
             "title": "Use o atributo Alt na tag <img>",
-            "content": "Se uma imagem é decorativa ou não é necessária para entender o conteúdo da página, você pode usar o simples alt.\n A função de uma imagem é tão importante quanto o seu significado: se o seu logotipo criar um link para à página inicial do seu site, o texto alternativo deverá ser algo como “Página inicial” ao invés de “Logotipo”.",
+            "content": "Se uma imagem é decorativa ou não é necessária para entender o conteúdo da página, você pode usar o simples alt.\n \n A função de uma imagem é tão importante quanto o seu significado: se o seu logotipo criar um link para à página inicial do seu site, o texto alternativo deverá ser algo como “Página inicial” ao invés de “Logotipo”.",
             "image": "https://miro.medium.com/max/1215/1*XPVDPXgLa1LxlITCV5zdSA.gif",
             "alt": " Um cavalo saindo de dentro de uma imagem da internet informando ao usuário com deficiencia visual que ele é um cavalo comendo cereal",
-            "reference": "https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859"
+            "reference": "https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859",
+            "fonte":"Fonte:  Eduardo Rabelo - Diretrizes para melhorar sua Acessibilidade na web"
         },
         {
             "_id": 5,
-            "title": "Adicione legendas a seus vídeos",
-            "content": "No YouTube, por exemplo. Depois de enviar um vídeo para a plataforma, você pode habilitar legendas. Elas são geradas automaticamente e podem ser imprecisas em algumas circunstâncias, dependendo do idioma, do ruído de fundo ou do sotaque do interlocutor.\n No entanto, elas são muito fáceis de implementar e podem funcionar bem na maioria dos vídeos em inglês. O HTML5 inclui a tag <track>, que você pode usar para anexar facilmente quantos arquivos de legendas e subtítulos desejar, usando o formato WebVTT.",
-            "image": "https://imageshack.com/i/pmb93Wb5p",
-            "alt": "icone de closed-caption",
-            "reference": "https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859"
+            "title": "Foco é essencial",
+            "content": "É importante garantir que nossos sites sejam navegáveis pelo teclado. Muitos usuários confiam em um teclado quando navegam na web. Entre eles estão pessoas com deficiências motoras, pessoas cegas e pessoas que não têm mãos ou não podem usar um mouse ou track pad por qualquer motivo.\n \n Navegar em um site via teclado significa pular de um elemento focalizável para outro na ordem do DOM. Isso geralmente é realizado usando a Tabtecla ou Shift + Tabna direção inversa. Elementos focáveis são, entre outros , links, botões e elementos de formulário . Eles podem ser selecionados com a Entertecla e, às vezes, com Spacebar. Por serem focáveis e selecionáveis de diferentes maneiras, eles vêm com funcionalidades padrão muito úteis. Portanto, faz sentido usar elementos semânticos corretos e escrever HTML em uma ordem lógica.\n \n Elementos como <p>, <h2>ou <div>não podem ser focados por padrão. Geralmente, usamos tags como essas para criar componentes personalizados com JavaScript, o que pode ser problemático para os usuários de teclado.",
+            "image": "https://miro.medium.com/max/2160/1*CSkLBSd5e9x3-n4kikV9ZA.gif",
+            "alt": "Homem deficiente visual feliz, navegando pelo teclado do computador enquanto ao redor aparecem imagens do que ele esta acessando",
+            "reference": "https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9#7a0c",
+            "fonte":"Fonte:  Matuzo - Writing javascript whith acessibility in mind"
         },
+        
         {
             "_id": 6,
             "title": "Semântica, use as tags apropriadas.",
-            "content": "Quando você escolhe conscientemente uma tag <h1> em um <p> ou um <span>,você está deliberadamente alterando o significado de um elemento, fornecendo hierarquia e criando uma estrutura em árvore das informações da sua página.\n Os leitores de tela estão atentos a isso. De fato, a semântica é uma de suas armas mais úteis.\nTenha em mente que, com grande poder, há uma grande responsabilidade, portanto, certifique-se de usar a tag semântica adequada para cada elemento.\n A ideia é que o leitor “diga” para o usuário o que é cada parte e tag do nosso site, assim, um site cheio de div ficará difícil de ser utilizado, pois o leitor não irá entender e nosso usuário será prejudicado, por isso deve-se usar as tags <header>,<main>,<article>, <footer>,<nav>,<aside> e etc, conforme sua  necessidade.\n*Um HTML semântico melhora a qualidade de SEO do site (posicionamento no rank de pesquisa da Google)/.\n*Leitores de tela saberão e conseguirão ler nosso site para usuários com deficiência/.\n*Torna a manutenção e entendimento do código mais fácil./",
+            "content": "Quando você escolhe conscientemente uma tag <h1> em um <p> ou um <span>,você está deliberadamente alterando o significado de um elemento, fornecendo hierarquia e criando uma estrutura em árvore das informações da sua página.\n Os leitores de tela estão atentos a isso. De fato, a semântica é uma de suas armas mais úteis.\n \nTenha em mente que, com grande poder, há uma grande responsabilidade, portanto, certifique-se de usar a tag semântica adequada para cada elemento.\n \nA ideia é que o leitor “diga” para o usuário o que é cada parte e tag do nosso site, assim, um site cheio de div ficará difícil de ser utilizado, pois o leitor não irá entender e nosso usuário será prejudicado, por isso deve-se usar as tags <header>,<main>,<article>, <footer>,<nav>,<aside> e etc, conforme sua  necessidade.\n \n - Um HTML semântico melhora a qualidade de SEO do site (posicionamento no rank de pesquisa da Google)/.\n \n - Leitores de tela saberão e conseguirão ler nosso site para usuários com deficiência/.\n \n -Torna a manutenção e entendimento do código mais fácil./",
             "image": "https://miro.medium.com/max/1215/1*kOznuvaFWevV7OjAa5f5dg.gif",
             "alt": "homem montando um torre de legos",
-            "reference": "https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859"
+            "reference": "https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859",
+            "fonte":"Fonte:  Eduardo Abelo - Diretrizes para melhorar sua Acessibilidade na web"
         },
         {
             "_id": 7,
             "title": "Botões e aria-label",
-            "content": "O atributo aria-label é usado para definir um string na tag do elemento atual. Use nos casos que a tag do texto não seja visível na tela.\n No exemplo abaixo, um botão é denominado para olhar como um botão típico “Fechar” , com um X no meio. Uma vez que não há nada que indique que a finalidade do botão é para fechar a janela, o atributo aria-label é utilizado para fornecer o rótulo para quaisquer tecnologias assistiva. \n  <button aria-label=“Fechar”  onclick=“myDialog.close()”>X</button>",
+            "content": "O atributo aria-label é usado para definir um string na tag do elemento atual. Use nos casos que a tag do texto não seja visível na tela.\n No exemplo abaixo, um botão é denominado para olhar como um botão típico “Fechar” , com um X no meio. Uma vez que não há nada que indique que a finalidade do botão é para fechar a janela, o atributo aria-label é utilizado para fornecer o rótulo para quaisquer tecnologias assistiva. \n \n <button aria-label=“Fechar”  onclick=“myDialog.close()”>X</button>",
             "image": "https://imageshack.com/i/poH7ILN9p",
             "alt": "Botao em circulo com um X no meio",
-            "reference": "https://developer.mozilla.org/pt-BR/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute"
+            "reference": "https://developer.mozilla.org/pt-BR/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute",
+            "fonte":"Fonte: MDN - Acessibility Aria Label"
         },
         {
             "_id": 8,
             "title": "Use Labels",
-            "content": "A tag label funciona como uma espécie de indicador de caminho a seguir. Ela diz ao browser/agente de usuário/leitor de tela: “Hey, você está vendo aquele campo ali? Aquele de nome 'firstname'? Bem, aquele campo é meu, e, por favor não não faça confusão com ele nem comigo”. Ou, em código XHTML seria assim:\n<label for='firstname'>First Name</label><br />\n<input type='text' name='firstname' id='firstname' size='20'/>\n A tag <label> pode ser usada para todos os elementos de formulário, exceto para os elementos buttons (seu funcionamento independe de links externos).",
+            "content": "A tag label funciona como uma espécie de indicador de caminho a seguir. Ela diz ao browser/agente de usuário/leitor de tela: “Hey, você está vendo aquele campo ali? Aquele de nome 'firstname'? Bem, aquele campo é meu, e, por favor não não faça confusão com ele nem comigo”. Ou, em código XHTML seria assim:\n \n<label for='firstname'>First Name</label><br />\n <input type='text' name='firstname' id='firstname' size='20'/>\n \n A tag <label> pode ser usada para todos os elementos de formulário, exceto para os elementos buttons (seu funcionamento independe de links externos).",
             "image": "https://miro.medium.com/max/1440/1*w8M7ANAO2sB8UJr8m1lCuA.gif",
             "alt": "Pessoa idosa que retira o placeholder Firstname e coloca em cima como uma label",
-            "reference": "https://maujor.com/tutorial/acformint.html"
+            "reference": "https://maujor.com/tutorial/acformint.html",
+            "fonte":"Fonte: Maujor - Construindo Formularios acessíveis HTML/XHTML Acessíveis"
         },
         {
             "_id": 9,
-            "title": "Foco é essencial",
-            "content": "É importante garantir que nossos sites sejam navegáveis pelo teclado. Muitos usuários confiam em um teclado quando navegam na web. Entre eles estão pessoas com deficiências motoras, pessoas cegas e pessoas que não têm mãos ou não podem usar um mouse ou track pad por qualquer motivo.\n Navegar em um site via teclado significa pular de um elemento focalizável para outro na ordem do DOM. Isso geralmente é realizado usando a Tabtecla ou Shift + Tabna direção inversa. Elementos focáveis são, entre outros , links, botões e elementos de formulário . Eles podem ser selecionados com a Entertecla e, às vezes, com Spacebar. Por serem focáveis e selecionáveis de diferentes maneiras, eles vêm com funcionalidades padrão muito úteis. Portanto, faz sentido usar elementos semânticos corretos e escrever HTML em uma ordem lógica.\n Elementos como <p>, <h2>ou <div>não podem ser focados por padrão. Geralmente, usamos tags como essas para criar componentes personalizados com JavaScript, o que pode ser problemático para os usuários de teclado.",
-            "image": "https://miro.medium.com/max/2160/1*CSkLBSd5e9x3-n4kikV9ZA.gif",
-            "alt": "Homem deficiente visual feliz, navegando pelo teclado do computador enquanto ao redor aparecem imagens do que ele esta acessando",
-            "reference": "https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9#7a0c"
+            "title": "Adicione legendas a seus vídeos",
+            "content": "No YouTube, por exemplo. Depois de enviar um vídeo para a plataforma, você pode habilitar legendas. Elas são geradas automaticamente e podem ser imprecisas em algumas circunstâncias, dependendo do idioma, do ruído de fundo ou do sotaque do interlocutor.\n \n No entanto, elas são muito fáceis de implementar e podem funcionar bem na maioria dos vídeos em inglês. O HTML5 inclui a tag <track>, que você pode usar para anexar facilmente quantos arquivos de legendas e subtítulos desejar, usando o formato WebVTT.",
+            "image": "https://imageshack.com/i/pmb93Wb5p",
+            "alt": "icone de closed-caption",
+            "reference": "https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859",
+            "fonte":"Fonte:  Eduardo Rabelo - Diretrizes para melhorar sua Acessibilidade na web"
         },
+       
         {
             "_id": 10,
             "title": "Torne elementos não focalizáveis ​​focáveis",
-            "content": "É possível tornar os elementos não focalizáveis, adicionando o tabindexatributo com um valor inteiro . Se o valor estiver definido como 0o elemento, ele se tornará focalizável e alcançável através do teclado.\n Se o valor for um número negativo, o elemento também poderá ser focalizado (por exemplo, com JavaScript), mas não acessível pelo teclado. Você também pode usar um valor maior que 0, mas isso altera a ordem natural das guias e é considerado um antipadrão. \n <h2 tabindex =“0”> Um cabeçalho focável </h2>",
+            "content": "É possível tornar os elementos não focalizáveis, adicionando o tabindexatributo com um valor inteiro . Se o valor estiver definido como 0o elemento, ele se tornará focalizável e alcançável através do teclado.\n Se o valor for um número negativo, o elemento também poderá ser focalizado (por exemplo, com JavaScript), mas não acessível pelo teclado. Você também pode usar um valor maior que 0, mas isso altera a ordem natural das guias e é considerado um antipadrão.\n \n<h2 tabindex =“0”> Um cabeçalho focável </h2>",
             "image": "https://miro.medium.com/max/1136/1*-5gYiq83__A9gVoFbtz34A.gif",
             "alt": "ícone de um alvo com uma flecha co centro",
-            "reference": "https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9#7a0c"
+            "reference": "https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9#7a0c",
+            "fonte":"Fonte:  Matuzo - Writing javascript whith acessibility in mind"
         }
     ],
     "ThirdSectionContent":[
@@ -108,7 +117,9 @@
             "image": "",
             "alt": "",
             "reference": ""
-        },
+        }
+    ],
+   "FourthSectionContent":[
         {
             "_id": 14,
             "title": "ChromeVox ",

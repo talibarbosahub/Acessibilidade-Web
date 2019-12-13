@@ -1,15 +1,16 @@
 .title{
-    font-size: 1.8rem;
-    color: #6D81F2;
+    font-size: 2rem;
+    color: #7e0cf5;
     text-align: center;
     margin-top:60px;
+    font-weight: bold;
   }
 
  .sub__title{
      font-size: 1rem;
      text-align: center;
      margin: 3% 15%;
-     color: #8091F2
+     color:#cd4dcc;
  }
 
  .img-fluid{

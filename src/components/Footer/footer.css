@@ -1,5 +1,5 @@
 .icone{
-    color: purple;
+    color:#7e0cf5;
     font-size: 2.5rem;
     margin: 20px;
 
@@ -7,12 +7,26 @@
 }
 
 .footer{
-    background-color: rgb(204, 212, 255);
+    background-color: #f7beff;
     font-size: 0.9rem;
     text-align: center; 
     height: 20%;
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 
     
 }
+.p__footer{
+    color:#b61aae; 
+}
+
+
+@media(max-width: 320px){
+    .icone{
+        font-size: 20px;}
+        .autor__media{
+           display: flex;
+           justify-content:space-between;}
+}
+

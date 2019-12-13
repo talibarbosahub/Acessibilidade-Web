@@ -8,15 +8,20 @@ import {StyleCard} from '../Cards/Cards'
  const SecondSection=()=>(
     <Fragment>
        <Container>
-      <h2 className="title">Diretrizes para um site acessível</h2> 
-        <p> A W3C (World Wide Web Consortium) é uma organização mundial que desenvolve especificações técnicas e orientações para web. Ou seja, ela quem cria e mantém os padrões para os sites na internet, incluindo os de acessibilidade. O WCAG (Web Content Accessibility Guidelines) é o seu documento que traz as diretrizes de acessibilidade para a web, explicando como tornar o conteúdo acessível para pessoas com deficiências. De acordo com elas, um site acessível segue os seguintes princípios:
-            •	Perceptível: As informações e interface são apresentadas de uma forma que possa ser percebida;
-            •	Operável: A Interface e a navegação devem ser operáveis para todos os usuários;
-            •	Compreensível: A informação deve ser apresentada de forma simples e compreensível;
-            •	Robusto: O conteúdo deve ser robusto de uma forma que possa maximizar sua compatibilidade com diferentes tipos de pessoas e tecnologias assistivas.
-           
+      <h2 tabindex="0"className="title" id="SecondSection">Diretrizes para um site acessível</h2> 
+      <br></br>
+        <p tabindex="0"> A W3C (World Wide Web Consortium) é uma organização mundial que desenvolve especificações técnicas e orientações para web. Ou seja, ela quem cria e mantém os padrões para os sites na internet, incluindo os de acessibilidade. O WCAG (Web Content Accessibility Guidelines) é o seu documento que traz as diretrizes de acessibilidade para a web, explicando como tornar o conteúdo acessível para pessoas com deficiências. De acordo com elas, um site acessível segue os seguintes princípios:
         </p>
-        <p><a href="http://blog.handtalk.me/acessibilidade-na-web/">Fonte: Handletalk</a></p> 
+        <p>
+            <ul>
+                <li tabindex="0">Perceptível: As informações e interface são apresentadas de uma forma que possa ser percebida; </li>
+                <li tabindex="0">Operável: A Interface e a navegação devem ser operáveis para todos os usuários;</li>
+                <li tabindex="0">Compreensível: A informação deve ser apresentada de forma simples e compreensível;</li>
+                <li tabindex="0">Robusto: O conteúdo deve ser robusto de uma forma que possa maximizar sua compatibilidade com diferentes tipos de pessoas e tecnologias assistivas.</li>
+            </ul>
+        
+       <a href="http://blog.handtalk.me/acessibilidade-na-web/">Fonte: Handletalk</a>
+       </p> 
         
         </Container>
         

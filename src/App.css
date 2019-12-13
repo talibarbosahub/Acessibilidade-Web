@@ -1,11 +1,24 @@
 *{
   box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+  margin: 0 auto;
+  scroll-behavior: smooth;
 }
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
+
+
+
+
+
+
 
 
 @keyframes App-logo-spin {

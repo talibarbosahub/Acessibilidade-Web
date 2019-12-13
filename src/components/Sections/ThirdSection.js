@@ -8,8 +8,9 @@ import {StyleCard} from '../Cards/Cards'
  const ThirdSection=()=>(
     <Fragment>
        <Container>
-      <h2 className="title">Tecnologias assistivas</h2> 
-        <p> Tecnologia Assistiva é um termo, utilizado para identificar todo o arsenal de Recursos e Serviços que contribuem para proporcionar ou ampliar habilidades funcionais de pessoas com deficiência e consequentemente promover Vida Independente e Inclusão.
+      <h2 tabindex="0" className="title" id ="ThirdSection">Tecnologias assistivas</h2> 
+      <br></br>
+        <p tabindex="0"> Tecnologia Assistiva é um termo, utilizado para identificar todo o arsenal de Recursos e Serviços que contribuem para proporcionar ou ampliar habilidades funcionais de pessoas com deficiência e consequentemente promover Vida Independente e Inclusão.
 
             Seu objetivo proporcionar à pessoa com deficiência maior independência, qualidade de vida e inclusão social, através da ampliação de sua comunicação, mobilidade, controle de seu ambiente, habilidades de seu aprendizado, trabalho e integração com a família, amigos e sociedade.
             

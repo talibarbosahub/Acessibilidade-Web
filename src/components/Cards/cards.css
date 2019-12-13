@@ -11,7 +11,8 @@
 .card{
     max-width: 30rem;
     font-size: 15px;
-    margin-right: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
     
 }
 
@@ -22,7 +23,7 @@ text-align: center;
 }
 
 .img__style{
-    max-height: 285px;
+    max-height: 200px;
     display: flex;
     padding: 15px;
 }
@@ -35,14 +36,19 @@ img{
 object-fit: contain;
 }
 
+p{
+    color: #0c056d;
+}
 /* BlockQuote */
 .p-3{
 border:none;
+
 }
 
 .quote__container{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 .quote__style {
     height: 10%;
