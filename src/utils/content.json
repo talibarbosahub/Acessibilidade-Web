@@ -98,35 +98,49 @@
             "_id": 11,
             "title": "Tradutor de sites Hand Talk",
             "content": "O tradutor de sites da Hand Talk é um plugin que deixa todo o conteúdo do site acessível em Libras, permitindo que o público surdo –  que a tem como primeira língua – navegue com autonomia. A instalação é rápida e simples: basta inserir o código no seu site que em questão de minutos o Hugo, intérprete virtual da Hand Talk, está pronto para realizar as traduções.",
-            "image": "",
-            "alt": "",
-            "reference": "http://blog.handtalk.me/acessibilidade-na-web/"
+            "image": "https://i.pinimg.com/originals/c3/09/6c/c3096cd1a4d63a70d96f3eb33403c517.png",
+            "alt": "boneco virtual do Hugo fazendo o gesto em libras de I Love You ",
+            "reference": "http://blog.handtalk.me/acessibilidade-na-web/",
+            "fonte":"HandTalk"
         },
         {
             "_id": 12,
-            "title": "eSSENTIAL ACCESSIBILITY",
-            "content": "É uma tecnologia assistiva que facilita a navegação de pessoas com diferentes tipos de deficiência, principalmente os que tem dificuldade na hora de utilizar o mouse ou teclado. Ela permite o controle do cursor com movimentos da cabeça ou comando de voz. Além disso, a ferramenta também realiza a leitura do conteúdo na tela, beneficiando pessoas com baixa visão ou problemas de leitura.",
-            "image": "",
-            "alt": "",
-            "reference": ""
+            "title": "a-blinX",
+            "content": "O a-blinX capta o piscar dos olhos para ampliar as possibilidades de interação das pessoas com deficiências motoras severas.",
+            "image": "https://tix.life/wp-content/uploads/2018/05/a-blinX-oculos-1024x683.jpg",
+            "alt": "Foto do a-blinx",
+            "reference": "https://tix.life/",
+            "fonte":"tix.life"
         },
         {
             "_id": 13,
-            "title": "BrowseAloud",
-            "content": "É uma ferramenta que auxilia a compreensão do conteúdo por usuários com dislexia, baixa escolaridade ou deficiência visual, pois realiza leitura em voz alta de todo conteúdo. A instalação é bem simples e conta com uma barra de ferramentas personalizável e funções como a redução da velocidade da leitura dos textos.",
-            "image": "",
-            "alt": "",
-            "reference": ""
+            "title": "Simplix",
+            "content": "Criado em parceria com profissionais da educação especial e reabilitação, o Simplix permite criar facilmente atividades psicomotoras para finalidades pedagógicas ou terapêuticas.\n Em poucos minutos, é possível montar pranchas audiovisuais acessíveis por meio do Teclado TiX, de forma a trabalhar com alunos e pacientes com deficiência intelectual, déficit de atenção, dificuldades na fala, dentre muitos outros acometimentos.",
+            "image": "https://tix.life/wp-content/uploads/2018/06/Simplix-TiX-com-M%C3%A1scara.jpg",
+            "alt": "foto do Simplix",
+            "reference": "https://tix.life/",
+            "fonte":"tix.life"
+        },
+        {
+            "_id": 14,
+            "title": "Tix",
+            "content": "Isoladamente, o TiX é um recurso inovador, que dá autonomia para pessoas com qualquer limitação motora controlarem qualquer computador. Porém, oferecer todas as funções de teclado e mouse com acessibilidade total é só um detalhe. Com apenas onze teclas sensíveis ao toque, que podem ser acionadas até mesmo pelo piscar dos olhos, o TiX vai muito além. Em conjunto com o software Simplix e seus acessórios, o TiX compõe uma incrível plataforma de inclusão escolar e reabilitação, capaz de desenvolver o motor e o cognitivo de alunos e pacientes com deficiências físicas e intelectuais.",
+            "image": "https://tix.life/wp-content/uploads/2018/04/IMG_3465b-SEM-FUNDO-960x583.jpg",
+            "alt": "Foto do teclado Tix",
+            "reference": "https://tix.life/categoria_aplicacoes/tix/",
+            "fonte":"Tix.life"
         }
+
     ],
    "FourthSectionContent":[
         {
-            "_id": 14,
+            "_id": 15,
             "title": "ChromeVox ",
             "content": "disponível para usuários de Mac e Windows, essa extensão do Chrome é um leitor de tela que você pode usar para testar seu website.",
             "image": "",
             "alt": "",
-            "reference": "http://www.chromevox.com/"
+            "reference": "http://www.chromevox.com/",
+            "fonte":"ChromeVox"
         },
         {
             "_id": 16,
@@ -134,7 +148,8 @@
             "content": "teste seu site para diferentes tipos de daltonismo com essa ferramenta on-line.",
             "image": "",
             "alt": "",
-            "reference": "https://www.toptal.com/designers/colorfilter"
+            "reference": "https://www.toptal.com/designers/colorfilter",
+            "fonte":"toptal.com"
         },
         {
             "_id": 17,
@@ -142,7 +157,8 @@
             "content": "Esta ferramenta oficial do W3C permite que você saiba se a sua marcação HTML segue as regras de acessibilidade da web!",
             "image": "",
             "alt": "",
-            "reference": "http://validator.w3.org/"
+            "reference": "http://validator.w3.org/",
+            "fonte":"validator.w3"
         },
         {
             "_id": 18,
@@ -150,7 +166,8 @@
             "content": "O Bureau de Acessibilidade à Internet (BOIA) oferece um relatório detalhado, com uma visão geral de como seu site se sai ao ser testado em relação aos pontos de verificação das WCAG A/AA.",
             "image": "",
             "alt": "",
-            "reference": ""
+            "reference": "https://www.boia.org/w3c-tools-services-a11y",
+            "fonte":"boia.org"
         },
         {
             "_id": 19,
@@ -158,7 +175,18 @@
             "content": "Uma ferramenta de avaliação de acessibilidade da web feita pelo WebAIM.",
             "image": "",
             "alt": "",
-            "reference": ""
+            "reference": "http://wave.webaim.org/",
+            "fonte":"webaim"
+        },
+        {
+            "_id": 20,
+            "title": "Extensão ou applicação para testes de acessibilidade",
+            "content": "Extensão para Chrome e Microsoft Edge Insider para executar testes de acessibilidade em páginas da web e aplicativos da web.Teste seu aplicativo do Windows com experiências confiáveis ​​do Windows, como o Inspecione e o Color Contrast Analyzer, em uma única ferramenta.",
+            "image": "",
+            "alt": "",
+            "reference": "https://accessibilityinsights.io/",
+            "fonte":"accessibilityinsights"
         }
+
     ]
 }

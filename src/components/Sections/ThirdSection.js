@@ -22,11 +22,15 @@ import {StyleCard} from '../Cards/Cards'
         {Content.ThirdSectionContent.map(item => (
         <StyleCard
         title={item.title}
+        image={item.image}
+        alt={item.alt}
         text={item.content}
-        reference={item.reference}> 
+        reference={item.reference}
+        fonte={item.fonte}>
+        
         </StyleCard>
     ))}
-        </Container>  
+        </Container>
     </Fragment>
 )
 

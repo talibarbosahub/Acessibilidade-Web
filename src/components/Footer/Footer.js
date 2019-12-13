@@ -13,9 +13,9 @@ const Footer=()=>(
         <p className="p__footer">Developed with</p>
          </Container>
         <Container className="autor__media">
-        <i class="icone fab fa-github-alt"></i>
-        <i class=" icone fab fa-linkedin"></i>
-        <i class=" icone fas fa-envelope"></i>
+        <a href="https://talibarbosa-hub.github.io/"><i class="icone fab fa-github-alt"></i></a>  
+       <a href="https://www.linkedin.com/in/talitabarbosas/"><i class=" icone fab fa-linkedin"></i></a> 
+        <a href="mailto:talitabarbosa@live.com"><i class=" icone fas fa-envelope"></i></a>
         <p className="p__footer"> by Talita Barbosa - 2019</p>
         </Container>
         </footer>

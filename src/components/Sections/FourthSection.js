@@ -12,9 +12,7 @@ import {StyleCard} from '../Cards/Cards'
       <br></br>
         <p tabindex="0">
         Depois de aplicar todo esse conhecimento, é hora de testá-lo. Aqui está uma lista das melhores ferramentas para auditar a acessibilidade do site: 
-
-        <p><a href="https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859">Fonte:Eduardo Rabelo - Diretrizes para melhorar sua Acessibilidade na web</a></p>
-             
+    
         </p>
         <p><a href="http://www.assistiva.com.br/tassistiva.html/">Fonte: Assitiva</a></p>
         </Container>
@@ -23,11 +21,15 @@ import {StyleCard} from '../Cards/Cards'
         {Content.FourthSectionContent.map(item => (
         <StyleCard
         title={item.title}
+        image={item.image}
+        alt={item.alt}
         text={item.content}
-        reference={item.reference}> 
+        reference={item.reference}
+        fonte={item.fonte}>
+        
         </StyleCard>
     ))}
-        </Container>  
+        </Container>
     </Fragment>
 )
 
