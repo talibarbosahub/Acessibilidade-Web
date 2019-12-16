@@ -1,6 +1,5 @@
 import React, {Fragment} from 'react';
 import Container from 'react-bootstrap/Container';
-import SecondSectionContent from '../../utils/content.json'
 import Content from '../../utils/content.json'
 import {StyleCard} from '../Cards/Cards'
 

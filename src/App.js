@@ -7,8 +7,8 @@ import ThirdSection from './components/Sections/ThirdSection'
 import FourthSection from './components/Sections/FourthSection'
 import {BlockQuote} from './components/Cards/Cards' 
 import Footer from './components/Footer/Footer'
+import ButtonScroll from './components/Button-scroll/Button'
 import './App.css';
-//import {BrowseRouter as Router, Route} from 'react-router-dom'
 
 
 function App() {
@@ -20,8 +20,10 @@ function App() {
     <SecondSection/>
     <ThirdSection/>
     <FourthSection/>
+    <ButtonScroll/>
     <Footer/>
     </Fragment>
+    
 
     
   );

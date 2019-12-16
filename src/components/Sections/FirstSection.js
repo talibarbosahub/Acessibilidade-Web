@@ -1,6 +1,5 @@
 import React from 'react';
 import {StyleCard} from '../Cards/Cards'
-import FirstSectionContent from '../../utils/content.json'
 import Content from '../../utils/content.json'
 import Container from 'react-bootstrap/Container';
 import '../Cards/cards.css'

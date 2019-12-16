@@ -1,6 +1,5 @@
 import React, {Fragment} from 'react';
 import Container from 'react-bootstrap/Container';
-import FourthSectionContent from '../../utils/content.json'
 import Content from '../../utils/content.json'
 import {StyleCard} from '../Cards/Cards'
 
@@ -14,7 +13,7 @@ import {StyleCard} from '../Cards/Cards'
         Depois de aplicar todo esse conhecimento, é hora de testá-lo. Aqui está uma lista das melhores ferramentas para auditar a acessibilidade do site: 
     
         </p>
-        <p><a href="http://www.assistiva.com.br/tassistiva.html/">Fonte: Assitiva</a></p>
+        <p><a href="https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859">Fonte: Diretrizes para melhorar sua acessibilidade na web</a></p>
         </Container>
         
         <Container className="display-flex">

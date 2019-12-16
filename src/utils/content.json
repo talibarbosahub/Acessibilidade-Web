@@ -3,7 +3,7 @@
         {
             "_id": 1,
             "title": "O que é?",
-            "content": " Segundo a wikipidia a expressão acessibilidade Web refere-se a prática inclusiva de fazer websites que possam ser utilizados por todas as pessoas que tenham deficiência ou não. Quando os sites são corretamente concebidos, desenvolvidos e editados, todos os usuários podem ter igual acesso à informação e funcionalidade.\n A Acessibilidade consiste na facilidade de acesso e de uso de ambientes, produtos e serviços por qualquer pessoa e em diferentes contextos.",
+            "content": " Segundo a wikipidia a expressão acessibilidade Web refere-se a prática inclusiva de fazer websites que possam ser utilizados por todas as pessoas que tenham deficiência ou não. Quando os sites são corretamente concebidos, desenvolvidos e editados, todos os usuários podem ter igual acesso à informação e funcionalidade.\n \n A Acessibilidade consiste na facilidade de acesso e de uso de ambientes, produtos e serviços por qualquer pessoa e em diferentes contextos.",
             "image": "",
             "alt": "",
             "reference": ""
@@ -11,7 +11,7 @@
         {
             "_id": 2,
             "title": "Qual a importância?",
-            "content": "Quando uma página não está acessível, ela está fechando as portas para milhões de pessoas, não pensar em acessibilidade pode ser sinônimo de deixar dinheiro em cima da mesa, a acessibilidade também pode melhorar o rankeamento da sua página no Google, uma vez que o algoritmo do buscador reconhece essas práticas e o enxerga com maior relevância.\n Desde 2016 a Lei Brasileira de inclusão (LBI) exige que todos os sites, públicos e privados, estejam acessíveis. Infelizmente apenas 1% deles seguem essa regra no Brasil, ter um site acessível não é só cumprir a lei, é ter um diferencial competitivo.",
+            "content": "Quando uma página não está acessível, ela está fechando as portas para milhões de pessoas, não pensar em acessibilidade pode ser sinônimo de deixar dinheiro em cima da mesa, a acessibilidade também pode melhorar o rankeamento da sua página no Google, uma vez que o algoritmo do buscador reconhece essas práticas e o enxerga com maior relevância.\n \n Desde 2016 a Lei Brasileira de inclusão (LBI) exige que todos os sites, públicos e privados, estejam acessíveis. Infelizmente apenas 1% deles seguem essa regra no Brasil, ter um site acessível não é só cumprir a lei, é ter um diferencial competitivo.",
             "image": "",
             "alt": "",
             "reference": ""
@@ -136,7 +136,7 @@
         {
             "_id": 15,
             "title": "ChromeVox ",
-            "content": "disponível para usuários de Mac e Windows, essa extensão do Chrome é um leitor de tela que você pode usar para testar seu website.",
+            "content": "Disponível para usuários de Mac e Windows, essa extensão do Chrome é um leitor de tela que você pode usar para testar seu website.",
             "image": "",
             "alt": "",
             "reference": "http://www.chromevox.com/",
@@ -145,7 +145,7 @@
         {
             "_id": 16,
             "title": "Filtro de cores",
-            "content": "teste seu site para diferentes tipos de daltonismo com essa ferramenta on-line.",
+            "content": "Teste seu site para diferentes tipos de daltonismo com essa ferramenta on-line.",
             "image": "",
             "alt": "",
             "reference": "https://www.toptal.com/designers/colorfilter",
@@ -180,7 +180,7 @@
         },
         {
             "_id": 20,
-            "title": "Extensão ou applicação para testes de acessibilidade",
+            "title": "Extensão ou aplicação para testes de acessibilidade",
             "content": "Extensão para Chrome e Microsoft Edge Insider para executar testes de acessibilidade em páginas da web e aplicativos da web.Teste seu aplicativo do Windows com experiências confiáveis ​​do Windows, como o Inspecione e o Color Contrast Analyzer, em uma única ferramenta.",
             "image": "",
             "alt": "",

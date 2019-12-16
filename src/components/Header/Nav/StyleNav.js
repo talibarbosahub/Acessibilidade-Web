@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Nav, NavDropdown,Form, FormControl, Button} from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 import './styleNav.css'
 
 const StyleNav = () =>(
@@ -15,9 +15,9 @@ const StyleNav = () =>(
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="#FirstSection">O que é, e qual a importancia?</Nav.Link>
-      <Nav.Link href="#SecondSection">Diretrizes para um site acessivel e check-list</Nav.Link>
+      <Nav.Link href="#SecondSection">Diretrizes para um site acessível </Nav.Link>
       <Nav.Link href="#ThirdSection">Tecnologias Assistivas</Nav.Link>
-      <Nav.Link href="#FourthSection">Ferramentas de acessibilidade para desenvolvedores</Nav.Link>
+      <Nav.Link href="#FourthSection">Ferramentas para desenvolvedores</Nav.Link>
       {/* <NavDropdown  title="Pesquisar" id="basic-nav-dropdown">
         <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />

@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button'
 import './cards.css'
 
 
@@ -11,13 +10,10 @@ export const StyleCard = (props) => (
     <span className="img__style"><Card.Img tabindex="0" src={props.image} alt ={props.alt}/></span>
       <Card.Title tabindex="0" >{props.title}
       </Card.Title>
-      {/* <Card.Subtitle className="mb-2 text-muted">{props.subtitle}</Card.Subtitle> */}
       <Card.Text tabindex="0">
         {props.text}
       </Card.Text>
-      {/* <Button variant="primary">Go somewhere</Button> */}
       <a href={props.reference}>{props.fonte}</a>
-      {/* <Card.Link href="#">{props.reference}</Card.Link> */}
     </Card.Body>
   </Card>
 )
