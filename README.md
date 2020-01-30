@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Projeto Final t8 - Reprograma. 
+
+O objetivo desse projeto é reunir informações de diversos sites  facilitar o entendimento sobre o tema de acessibilidade na web. Ao final do conteúdo estão disponíveis os links das referências e autores.
+
 ## Available Scripts
 
 In the project directory, you can run:
