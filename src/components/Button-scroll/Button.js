@@ -9,7 +9,7 @@ const ButtonScroll =()=>(
         speed={1500}
         easing="easeInOutQuint"
       >
-        <span className="btn__scroll">Voltar para o Topo</span>
+        <span aria-label="voltar para o topo da página"className="btn__scroll"> <i class="fas fa-arrow-up"></i></span>
       </BackToTop>
 )
 

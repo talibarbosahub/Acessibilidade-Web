@@ -29,7 +29,7 @@
         },
         {
             "_id": 4,
-            "title": "Use o atributo Alt na tag <img>",
+            "title": "Use o atributo alt na tag img",
             "content": "Se uma imagem é decorativa ou não é necessária para entender o conteúdo da página, você pode usar o simples alt.\n \n A função de uma imagem é tão importante quanto o seu significado: se o seu logotipo criar um link para à página inicial do seu site, o texto alternativo deverá ser algo como “Página inicial” ao invés de “Logotipo”.",
             "image": "https://miro.medium.com/max/1215/1*XPVDPXgLa1LxlITCV5zdSA.gif",
             "alt": " Um cavalo saindo de dentro de uma imagem da internet informando ao usuário com deficiencia visual que ele é um cavalo comendo cereal",
@@ -51,7 +51,7 @@
             "title": "Semântica, use as tags apropriadas.",
             "content": "Quando você escolhe conscientemente uma tag <h1> em um <p> ou um <span>,você está deliberadamente alterando o significado de um elemento, fornecendo hierarquia e criando uma estrutura em árvore das informações da sua página.\n Os leitores de tela estão atentos a isso. De fato, a semântica é uma de suas armas mais úteis.\n \nTenha em mente que, com grande poder, há uma grande responsabilidade, portanto, certifique-se de usar a tag semântica adequada para cada elemento.\n \nA ideia é que o leitor “diga” para o usuário o que é cada parte e tag do nosso site, assim, um site cheio de div ficará difícil de ser utilizado, pois o leitor não irá entender e nosso usuário será prejudicado, por isso deve-se usar as tags <header>,<main>,<article>, <footer>,<nav>,<aside> e etc, conforme sua  necessidade.\n \n - Um HTML semântico melhora a qualidade de SEO do site (posicionamento no rank de pesquisa da Google)/.\n \n - Leitores de tela saberão e conseguirão ler nosso site para usuários com deficiência/.\n \n -Torna a manutenção e entendimento do código mais fácil./",
             "image": "https://miro.medium.com/max/1215/1*kOznuvaFWevV7OjAa5f5dg.gif",
-            "alt": "homem montando um torre de legos",
+            "alt": "homem montando um torre de cubos encaixaveis",
             "reference": "https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859",
             "fonte":"Fonte:  Eduardo Abelo - Diretrizes para melhorar sua Acessibilidade na web"
         },
@@ -60,7 +60,7 @@
             "title": "Botões e aria-label",
             "content": "O atributo aria-label é usado para definir um string na tag do elemento atual. Use nos casos que a tag do texto não seja visível na tela.\n No exemplo abaixo, um botão é denominado para olhar como um botão típico “Fechar” , com um X no meio. Uma vez que não há nada que indique que a finalidade do botão é para fechar a janela, o atributo aria-label é utilizado para fornecer o rótulo para quaisquer tecnologias assistiva. \n \n <button aria-label=“Fechar”  onclick=“myDialog.close()”>X</button>",
             "image": "https://imageshack.com/i/poH7ILN9p",
-            "alt": "Botao em circulo com um X no meio",
+            "alt": "Botão em círculo com um X no meio",
             "reference": "https://developer.mozilla.org/pt-BR/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute",
             "fonte":"Fonte: MDN - Acessibility Aria Label"
         },
@@ -69,7 +69,7 @@
             "title": "Use Labels",
             "content": "A tag label funciona como uma espécie de indicador de caminho a seguir. Ela diz ao browser/agente de usuário/leitor de tela: “Hey, você está vendo aquele campo ali? Aquele de nome 'firstname'? Bem, aquele campo é meu, e, por favor não não faça confusão com ele nem comigo”. Ou, em código XHTML seria assim:\n \n<label for='firstname'>First Name</label><br />\n <input type='text' name='firstname' id='firstname' size='20'/>\n \n A tag <label> pode ser usada para todos os elementos de formulário, exceto para os elementos buttons (seu funcionamento independe de links externos).",
             "image": "https://miro.medium.com/max/1440/1*w8M7ANAO2sB8UJr8m1lCuA.gif",
-            "alt": "Pessoa idosa que retira o placeholder Firstname e coloca em cima como uma label",
+            "alt": "Um senhor idoso, que retira o texto de dentro do campo digitável e o coloca acima como uma etiqueta",
             "reference": "https://maujor.com/tutorial/acformint.html",
             "fonte":"Fonte: Maujor - Construindo Formularios acessíveis HTML/XHTML Acessíveis"
         },
@@ -88,7 +88,7 @@
             "title": "Torne elementos não focalizáveis ​​focáveis",
             "content": "É possível tornar os elementos não focalizáveis, adicionando o tabindexatributo com um valor inteiro . Se o valor estiver definido como 0o elemento, ele se tornará focalizável e alcançável através do teclado.\n Se o valor for um número negativo, o elemento também poderá ser focalizado (por exemplo, com JavaScript), mas não acessível pelo teclado. Você também pode usar um valor maior que 0, mas isso altera a ordem natural das guias e é considerado um antipadrão.\n \n<h2 tabindex =“0”> Um cabeçalho focável </h2>",
             "image": "https://miro.medium.com/max/1136/1*-5gYiq83__A9gVoFbtz34A.gif",
-            "alt": "ícone de um alvo com uma flecha co centro",
+            "alt": "Mão de uma pessoa com prótese apertando a tecla tab para navegar entre as opções de um menu de site ",
             "reference": "https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9#7a0c",
             "fonte":"Fonte:  Matuzo - Writing javascript whith acessibility in mind"
         }
@@ -99,7 +99,7 @@
             "title": "Tradutor de sites Hand Talk",
             "content": "O tradutor de sites da Hand Talk é um plugin que deixa todo o conteúdo do site acessível em Libras, permitindo que o público surdo –  que a tem como primeira língua – navegue com autonomia. A instalação é rápida e simples: basta inserir o código no seu site que em questão de minutos o Hugo, intérprete virtual da Hand Talk, está pronto para realizar as traduções.",
             "image": "https://i.pinimg.com/originals/c3/09/6c/c3096cd1a4d63a70d96f3eb33403c517.png",
-            "alt": "boneco virtual do Hugo fazendo o gesto em libras de I Love You ",
+            "alt": "desenho de um homem fazendo o gesto em libras de I Love You ",
             "reference": "http://blog.handtalk.me/acessibilidade-na-web/",
             "fonte":"HandTalk"
         },
