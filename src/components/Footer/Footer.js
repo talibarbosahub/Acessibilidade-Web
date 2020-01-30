@@ -13,10 +13,10 @@ const Footer=()=>(
         <p className="p__footer">Developed with</p>
          </Container>
         <Container className="autor__media">
-        <a href="https://talibarbosa-hub.github.io/"><i class="icone fab fa-github-alt"></i></a>  
-       <a href="https://www.linkedin.com/in/talitabarbosas/"><i class=" icone fab fa-linkedin"></i></a> 
-        <a href="mailto:talitabarbosa@live.com"><i class=" icone fas fa-envelope"></i></a>
-        <p className="p__footer"> by Talita Barbosa - 2019</p>
+        <a aria-label="ícone com link para acessar página do Github da Desevolvedora" href="https://talibarbosa-hub.github.io/"><i class="icone fab fa-github-alt"></i></a>  
+       <a aria-label="ícone com link para acessar página do Linkedin da Desevolvedora"href="https://www.linkedin.com/in/talitabarbosas/"><i class=" icone fab fa-linkedin"></i></a> 
+        <a aria-label="ícone com link para acessar o e-mail da Desevolvedora"href="mailto:talitabarbosa@live.com"><i class=" icone fas fa-envelope"></i></a>
+        <p className="p__footer"> Find-me on social media</p>
         </Container>
         </footer>
     </Fragment>

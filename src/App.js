@@ -20,7 +20,7 @@ function App() {
     <SecondSection/>
     <ThirdSection/>
     <FourthSection/>
-    <ButtonScroll/>
+    {/* <ButtonScroll/> */}
     <Footer/>
     </Fragment>
     

@@ -7,8 +7,9 @@ import './cards.css'
 export const StyleCard = (props) => (
   <Card>
       <Card.Body >
-    <span className="img__style"><Card.Img tabindex="0" src={props.image} alt ={props.alt}/></span>
-      <Card.Title tabindex="0" >{props.title}
+        {props.image ? <img className="img__style" tabindex="0" src={props.image} alt ={props.alt}/> : null}
+    
+      <Card.Title tabindex="0" >{props.title} 
       </Card.Title>
       <Card.Text tabindex="0">
         {props.text}

@@ -7,7 +7,7 @@ import {StyleCard} from '../Cards/Cards'
  const SecondSection=()=>(
     <Fragment>
        <Container>
-      <h2 tabindex="0"className="title" id="SecondSection">Diretrizes para um site acessível</h2> 
+      <h2 tabindex="0"className="SectionTitle" id="SecondSection">Diretrizes para um site acessível</h2> 
       <br></br>
         <p tabindex="0"> A W3C (World Wide Web Consortium) é uma organização mundial que desenvolve especificações técnicas e orientações para web. Ou seja, ela quem cria e mantém os padrões para os sites na internet, incluindo os de acessibilidade. O WCAG (Web Content Accessibility Guidelines) é o seu documento que traz as diretrizes de acessibilidade para a web, explicando como tornar o conteúdo acessível para pessoas com deficiências. De acordo com elas, um site acessível segue os seguintes princípios:
         </p>

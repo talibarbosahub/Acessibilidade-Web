@@ -1,31 +1,33 @@
+
 *{
   box-sizing: border-box;
-  font-family: 'Hind Siliguri', sans-serif;
+  /* font-family: 'Hind Siliguri', sans-serif; */
+  font-family: 'Dosis', sans-serif;
   margin: 0 auto;
   scroll-behavior: smooth;
+  
+  
+}
+
+App {
+  width: 100%;
+}
+
+.SectionTitle{
+  font-size: 2rem;
+  color: #90299e;
+  text-align: center;
+  margin-top:50px;
+  font-weight: bold;
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 1.10rem;
 }
 
-
-
-
-
-
-
-
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media(max-width: 425px){
+  .SectionTitle{
+    font-size: 1.5rem;
   }
 }

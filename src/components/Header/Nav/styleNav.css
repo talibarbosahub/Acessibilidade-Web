@@ -1,22 +1,23 @@
 .styleNav{
-    background-color:#f7beff;
+    background-color:#c33cd4;
     font-size: 0.9rem;
     text-align: center; 
+   
     padding: 0;
     
      
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: #7e0cf5;
+    color: white;
     border-radius: 3px;
     padding:15px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .navbar-light .navbar-nav .nav-link:focus{
     color:white;
-    background-color:#cd4dcc;
+    background-color:#b61aae;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{

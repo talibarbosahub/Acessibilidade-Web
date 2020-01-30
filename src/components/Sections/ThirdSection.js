@@ -7,7 +7,7 @@ import {StyleCard} from '../Cards/Cards'
  const ThirdSection=()=>(
     <Fragment>
        <Container>
-      <h2 tabindex="0" className="title" id ="ThirdSection">Tecnologias assistivas</h2> 
+      <h2 tabindex="0" className="SectionTitle" id ="ThirdSection">Tecnologias assistivas</h2> 
       <br></br>
         <p tabindex="0"> Tecnologia Assistiva é um termo, utilizado para identificar todo o arsenal de Recursos e Serviços que contribuem para proporcionar ou ampliar habilidades funcionais de pessoas com deficiência e consequentemente promover Vida Independente e Inclusão.
 

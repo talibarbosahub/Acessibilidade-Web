@@ -7,13 +7,12 @@ import {StyleCard} from '../Cards/Cards'
  const FourthSection=()=>(
     <Fragment>
        <Container>
-      <h2 tabindex="0" className="title" id ="FourthSection">Ferramentas de acessibilidade para desenvolvedores</h2> 
+      <h2 tabindex="0" className="SectionTitle" id ="FourthSection">Ferramentas de acessibilidade para desenvolvedores</h2> 
       <br></br>
         <p tabindex="0">
-        Depois de aplicar todo esse conhecimento, é hora de testá-lo. Aqui está uma lista das melhores ferramentas para auditar a acessibilidade do site: 
+        Depois de aplicar todo esse conhecimento no seu site, é hora de testá-lo. Aqui está uma lista das melhores ferramentas para auditar a acessibilidade: 
     
         </p>
-        <p><a href="https://medium.com/@oieduardorabelo/10-diretrizes-para-melhorar-sua-acessibilidade-na-web-6e35844f9859">Fonte: Diretrizes para melhorar sua acessibilidade na web</a></p>
         </Container>
         
         <Container className="display-flex">

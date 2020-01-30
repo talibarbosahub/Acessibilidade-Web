@@ -12,18 +12,24 @@
     max-width: 30rem;
     font-size: 15px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 15px;
     
+}
+
+.card-body {
+    background-color: white;
+    padding: 0.90rem;
 }
 
 .card-title, h5{
 padding-bottom: 10px;
-color: #6D81F2;
+color: #bb37cc;
 text-align: center;
+font-weight: bolder;
 }
 
 .img__style{
-    max-height: 200px;
+    max-height: 167px;
     display: flex;
     padding: 15px;
 }
@@ -37,7 +43,8 @@ object-fit: contain;
 }
 
 p{
-    color: #0c056d;
+    color:#011266;
+    
 }
 /* BlockQuote */
 .p-3{
@@ -60,12 +67,14 @@ border:none;
 @media(max-width: 320px)
 {
     .card-title, h5, .card-text{
-        font-size: 10px;
         text-align: -webkit-center;
     }
-
+    .card-img{
+        width: 65vw;
+    }
     .card-body{
-        padding:0.30rem
+        padding:0.30rem;
+        max-width: 95vw;
         
     }
 }

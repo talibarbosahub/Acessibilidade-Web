@@ -1,5 +1,5 @@
 .icone{
-    color:#7e0cf5;
+    color:white;
     font-size: 2.5rem;
     margin: 20px;
 
@@ -7,26 +7,26 @@
 }
 
 .footer{
-    background-color: #f7beff;
+    background-color: #c33cd4;
     font-size: 0.9rem;
     text-align: center; 
     height: 20%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 30px;
+    width: 100%;
 
     
 }
 .p__footer{
-    color:#7e0cf5; 
+    color:white; 
 }
 
 
-@media(max-width: 320px){
+@media(max-width: 425px){
     .icone{
-        font-size: 20px;}
-        .autor__media{
-           display: flex;
-           justify-content:space-between;}
+        font-size: 20px;
+    margin: 5px}
+       
 }
 
