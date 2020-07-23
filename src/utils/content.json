@@ -129,7 +129,26 @@
             "alt": "Foto do teclado Tix",
             "reference": "https://tix.life/categoria_aplicacoes/tix/",
             "fonte":"Tix.life"
+        },
+        {
+            "_id": 15,
+            "title": "Leitores de tela",
+            "content": "Leitores de tela são softwares usados para obter resposta do computador por meio sonoro, usado principalmente por deficientes visuais. O programa vai percorrendo textos e imagens e lendo em voz alta tudo o que ele encontra na tela, assim como as operações que o usuário realiza com as teclas alfanuméricas e os comandos digitados. Softwares mais comuns:  \n \n - Jaws: Leitor de tela pago para Windows \n \n - NVDA: leitor de tela gratuito para Windows \n \n - Orca: Leitor de tela gratuito para Linux  \n \n - VoiceOver: Leitor de tela para IOS que acompanha os dispositivos da Apple",
+            "image": "",
+            "alt": "",
+            "reference": "https://brasil.uxdesign.cc/acessibilidade-como-funcionam-os-leitores-de-tela-3d9b610216e1",
+            "fonte":"Brasil.uxdesign"
+        },
+        {
+            "_id": 16,
+            "title": "Ampliadores de tela",
+            "content": "Aumentam o tamanho da fonte e das imagens na tela do computador para os usuários com baixa visão. Exemplos de softwares: \n \n - Lupa do Windows: Aplicativo padrão do Windows que permite zoom de até 1600%. \n \n - LentePro (Windows): Software que faz parte do Projeto DOSVOX. Mostra uma área da tela ampliada numa janela, como se fosse uma lente de aumento. O índice de ampliação da imagem pode variar de 1 a 9 vezes. \n \n - Virtual Magnifying Glass (Windows, Mac OS, Linux): Abre uma janela que acompanha o cursor do mouse e amplia os elementos da tela.",
+            "image": "",
+            "alt": "",
+            "reference": "https://cta.ifrs.edu.br/recurso-ta/ampliadores-de-tela/",
+            "fonte":"Centro Tecnológico de Acessibilidade"
         }
+
 
     ],
    "FourthSectionContent":[
@@ -186,6 +205,24 @@
             "alt": "",
             "reference": "https://accessibilityinsights.io/",
             "fonte":"accessibilityinsights"
+        },
+        {
+            "_id": 21,
+            "title": "Verificador de contraste de cores WCAG",
+            "content": "Extensão para o Chrome para testar o contraste de cores de acordo com os requisitos de acessibilidade das WCAG diretriz 1.4.3 Contrate (mínimo) WCAG. Ele verifica o contraste de cores entre o primeiro plano e o plano de fundo dos elementos que estão na página de acordo com as WCAG 2.",
+            "image": "",
+            "alt": "",
+            "reference": "https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf",
+            "fonte":"Extensões Chrome"
+        },
+        {
+            "_id": 22,
+            "title": "axe - Web Accessibility Testing",
+            "content": "Extensão para o Chrome parra teste de código rápido e leve, analisa a qualidade do site ou do app da web apontando problemas de acessibilidade cobrindo a diretriz 4.1.1 Análise (código) WCAG",
+            "image": "",
+            "alt": "",
+            "reference": "https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd",
+            "fonte":"Extensões Chrome"
         }
 
     ]

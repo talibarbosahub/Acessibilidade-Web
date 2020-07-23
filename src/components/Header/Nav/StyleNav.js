@@ -4,14 +4,14 @@ import './styleNav.css'
 
 const StyleNav = () =>(
     <Navbar className="styleNav" expand="lg">
-      <Navbar.Brand tabindex="-1"href="#home">
+      <Navbar.Brand tabindex="-1"href="#home" aria-label="link para acessar a home">
       {
         window.screen.width <= 768 ? <span className="menu">Selecione o tópico pelo menu ao lado</span> :""
       }
 
       </Navbar.Brand>
   
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Toggle aria-controls="basic-navbar-nav"  />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="#FirstSection">O que é, e qual a importancia?</Nav.Link>
